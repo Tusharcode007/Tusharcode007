@@ -68,6 +68,7 @@ const tushar = {
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
 
 </p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e06ed12-2d18-44ca-aafa-31613398d8e3" />
 
 ---
 
