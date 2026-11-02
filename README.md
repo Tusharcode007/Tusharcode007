@@ -19,7 +19,7 @@ I build full-stack products with React, Node.js and TypeScript, dig into LLM too
 can act on without asking a single follow-up question.
 
 - 🐛 Contributing to **MIT App Inventor** and **GirlScript Summer of Code '26** projects
-- 🧠 Building AI tools — **GradeSense** (LLM exam grading) and **TokenSense** (LLM cost analysis)
+- 🧠 Building AI products like **GradeSense**, an LLM-powered exam grader with rubric-level evidence
 - 🤝 Head of Partnerships at **E-Cell, Scaler School of Technology**
 - 🌱 Going deeper on TypeScript and system design
 - 💼 Open to internships and collaborations
@@ -52,17 +52,6 @@ can act on without asking a single follow-up question.
       <a href="https://github.com/Tusharcode007/gradeSense"><b>Code ↗</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🔍 TokenSense</h3>
-      Hackathon team project: a CLI that analyses LLM API usage logs, runs 4 deterministic waste-detection rules, breaks costs down
-      per team with week-over-week trends, and recommends fixes with monthly savings estimates — in the console or as a Slack digest.
-      <br><br>
-      <code>TypeScript</code> <code>Node.js</code> <code>CLI</code> <code>LLM APIs</code>
-      <br><br>
-      <a href="https://github.com/Tusharcode007/TokenSense"><b>Code ↗</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>⚙️ FlowForge</h3>
       A project-execution workspace: turn projects into tasks, track real completion and spot overdue work at a glance.
       Email/password auth and per-user data isolation through Supabase Row Level Security.
@@ -71,6 +60,8 @@ can act on without asking a single follow-up question.
       <br><br>
       <a href="https://flow-forge-neon-nine.vercel.app/"><b>Live demo ↗</b></a> · <a href="https://github.com/Tusharcode007/FlowForge-"><b>Code ↗</b></a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🛒 ShopKartt</h3>
       Full-stack store: catalog search and filters, a cart synced to the signed-in customer, JWT auth in HTTP-only cookies, and Razorpay
@@ -80,8 +71,6 @@ can act on without asking a single follow-up question.
       <br><br>
       <a href="https://github.com/Tusharcode007/shopkartt"><b>Code ↗</b></a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>📚 AI-Powered Study Companion</h3>
       An 8-module React SPA: topic notes, filterable tasks, an automatic revision planner, a Recharts analytics dashboard and an
@@ -91,6 +80,8 @@ can act on without asking a single follow-up question.
       <br><br>
       <a href="https://tusharcode007.github.io/rst-AI-Powered-Study-Companion-/"><b>Live demo ↗</b></a> · <a href="https://github.com/Tusharcode007/rst-AI-Powered-Study-Companion-"><b>Code ↗</b></a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>⏱️ Productivity Booster</h3>
       A neo-brutalist all-in-one dashboard: Pomodoro timer, meditation zone, prioritised tasks, habit tracking and goals,
@@ -99,6 +90,15 @@ can act on without asking a single follow-up question.
       <code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>LocalStorage</code>
       <br><br>
       <a href="https://productivity-booster-b27e.vercel.app/"><b>Live demo ↗</b></a> · <a href="https://github.com/Tusharcode007/PRODUCTIVITY-BOOSTER"><b>Code ↗</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔍 TokenSense</h3>
+      Hackathon team project: a CLI that analyses LLM API usage logs, runs 4 deterministic waste-detection rules, breaks costs down
+      per team with week-over-week trends, and recommends fixes with monthly savings estimates — in the console or as a Slack digest.
+      <br><br>
+      <code>TypeScript</code> <code>Node.js</code> <code>CLI</code> <code>LLM APIs</code>
+      <br><br>
+      <a href="https://github.com/Tusharcode007/TokenSense"><b>Code ↗</b></a>
     </td>
   </tr>
 </table>
@@ -111,8 +111,8 @@ Also: [**MakeSense AI**](https://github.com/Tusharcode007/makeSENSE) (assistant 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js,ts,java,react,vite,nodejs,express,mongodb,mysql,postgres,supabase,sqlite,git,github,linux,vscode&perline=8&theme=dark">
-    <img alt="JavaScript, TypeScript, Java, React, Vite, Node.js, Express, MongoDB, MySQL, PostgreSQL, Supabase, SQLite, Git, GitHub, Linux, VS Code" src="https://skillicons.dev/icons?i=js,ts,java,react,vite,nodejs,express,mongodb,mysql,postgres,supabase,sqlite,git,github,linux,vscode&perline=8&theme=light">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js%2Cts%2Cjava%2Creact%2Cvite%2Cnodejs%2Cexpress%2Cmongodb%2Cmysql%2Cpostgres%2Csupabase%2Csqlite%2Cgit%2Cgithub%2Clinux%2Cvscode&perline=8&theme=dark">
+    <img alt="JavaScript, TypeScript, Java, React, Vite, Node.js, Express, MongoDB, MySQL, PostgreSQL, Supabase, SQLite, Git, GitHub, Linux, VS Code" src="https://skillicons.dev/icons?i=js%2Cts%2Cjava%2Creact%2Cvite%2Cnodejs%2Cexpress%2Cmongodb%2Cmysql%2Cpostgres%2Csupabase%2Csqlite%2Cgit%2Cgithub%2Clinux%2Cvscode&perline=8&theme=light">
   </picture>
 </p>
 
@@ -143,6 +143,6 @@ Also: [**MakeSense AI**](https://github.com/Tusharcode007/makeSENSE) (assistant 
   </picture>
 </p>
 
-<img alt="Open source • MIT App Inventor • GSSoC '26 • React • Node.js • TypeScript • Java • LLM tooling • Competitive programming" src="assets/marquee.svg" width="100%">
+<img alt="Open source • MIT App Inventor • GSSoC '26 • React • Node.js • TypeScript • Java • LLM tooling • Full-stack" src="assets/marquee.svg" width="100%">
 
 <p align="center"><sub>Header and banner are hand-made SVGs · stats and snake regenerate daily via GitHub Actions</sub></p>

@@ -7,8 +7,9 @@
 .sg{font-family:'SG','Arial Black',Arial,sans-serif;font-weight:700;}
 .sm{font-family:'SM',Menlo,Consolas,monospace;font-weight:700;}
 
-    .role{opacity:0;animation:cycle 12s infinite;}
-    @keyframes cycle{0%{opacity:0}2%,23%{opacity:1}25%,100%{opacity:0}}
+    .role{opacity:0;animation:cycle 9s infinite;}
+    .r0{opacity:1;}
+    @keyframes cycle{0%,31%{opacity:1}33.4%,100%{opacity:0}}
     .cur{animation:blink 1s steps(1) infinite;}
     @keyframes blink{50%{opacity:0}}
     .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.6s ease-in-out infinite;}
@@ -49,7 +50,7 @@
   <rect x="60" y="250" width="440.0" height="62" rx="10" fill="#F4EFE6"/>
   <text class="sm" x="80" y="294" font-size="25" fill="#0E8A5A">&gt;</text>
   <text class="sm role r0" style="animation-delay:-0s" x="104" y="294" font-size="25" fill="#141414">Full-Stack Developer<tspan class="cur" fill="#D6336C">_</tspan></text>
-  <text class="sm role" style="animation-delay:-9s" x="104" y="294" font-size="25" fill="#141414">Open Source Contributor<tspan class="cur" fill="#D6336C">_</tspan></text><text class="sm role" style="animation-delay:-6s" x="104" y="294" font-size="25" fill="#141414">Competitive Programmer<tspan class="cur" fill="#D6336C">_</tspan></text><text class="sm role" style="animation-delay:-3s" x="104" y="294" font-size="25" fill="#141414">LLM Tooling Tinkerer<tspan class="cur" fill="#D6336C">_</tspan></text>
+  <text class="sm role" style="animation-delay:-6s" x="104" y="294" font-size="25" fill="#141414">Open Source Contributor<tspan class="cur" fill="#D6336C">_</tspan></text><text class="sm role" style="animation-delay:-3s" x="104" y="294" font-size="25" fill="#141414">LLM Tooling Tinkerer<tspan class="cur" fill="#D6336C">_</tspan></text>
 
   <!-- one-liner -->
   <text class="sm" x="60" y="350" font-size="17" fill="#CFC8BC" letter-spacing="0.5">SECOND-YEAR CS · SCALER SCHOOL OF TECHNOLOGY × BITS PILANI</text>
