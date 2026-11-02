@@ -1,0 +1,79 @@
+# Regenerates the contribution snake and the stats cards shown in README.md.
+# Everything is published to the `output` branch (force-pushed, no history),
+# so `main` only ever contains hand-written commits.
+
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # daily, 06:00 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-assets.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Contribution snake (light + dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#111111&color_dots=#EDE4D3,#FFE08A,#FFD23F,#FF8FC3,#D6336C
+            dist/snake-dark.svg?color_snake=#F4EFE6&color_dots=#262626,#6B5414,#C9A227,#FFD23F,#FF8FC3
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: '{"username":"${{ github.repository_owner }}","custom_title":"R S Tushar · GitHub Stats","show_icons":true,"hide_rank":true,"bg_color":"FFF6E5","title_color":"111111","text_color":"111111","icon_color":"D6336C","border_color":"111111","border_radius":10}'
+          path: dist/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: '{"username":"${{ github.repository_owner }}","custom_title":"R S Tushar · GitHub Stats","show_icons":true,"hide_rank":true,"bg_color":"1B1B1B","title_color":"FFD23F","text_color":"F4EFE6","icon_color":"FF8FC3","border_color":"F4EFE6","border_radius":10}'
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: '{"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"bg_color":"FFF6E5","title_color":"111111","text_color":"111111","border_color":"111111","border_radius":10}'
+          path: dist/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: '{"username":"${{ github.repository_owner }}","layout":"compact","langs_count":8,"bg_color":"1B1B1B","title_color":"FFD23F","text_color":"F4EFE6","border_color":"F4EFE6","border_radius":10}'
+          path: dist/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4.2.0
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: Update profile assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
