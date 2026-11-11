@@ -15,14 +15,14 @@
 ## 👋 About me
 
 I'm a second-year Computer Science student at **Scaler School of Technology** (dual degree with **BITS Pilani**), based in Bengaluru.
-I build full-stack products with React, Node.js and TypeScript, dig into LLM tooling, and write bug reports that maintainers
-can act on without asking a single follow-up question.
+I build full-stack and AI-powered products with TypeScript, React and Node.js, and contribute bug reports and tested fixes
+to **MIT App Inventor**.
 
-- 🐛 Contributing to **MIT App Inventor** and **GirlScript Summer of Code '26** projects
+- 🐛 Contributing to **MIT App Inventor**: reproducible bug reports and fixes with unit tests
 - 🧠 Building AI products like **GradeSense**, an LLM-powered exam grader with rubric-level evidence
 - 🤝 Head of Partnerships at **E-Cell, Scaler School of Technology**
 - 🌱 Going deeper on TypeScript and system design
-- 💼 Open to internships and collaborations
+- 💼 Open to software engineering and AI engineering internships
 
 ## 📈 Activity
 
@@ -39,11 +39,11 @@ can act on without asking a single follow-up question.
 
 | Project | What I did | Status |
 | :-- | :-- | :-- |
-| **[MIT App Inventor](https://github.com/mit-cml/appinventor-sources)** | [**#4204**](https://github.com/mit-cml/appinventor-sources/issues/4204) — `ShareFile` and `ShareFileWithMessage` reported each other's name in `Screen.ErrorOccurred`: an inverted condition in `Sharing.java` dating back to 2014 · [fix + Robolectric test](https://github.com/Tusharcode007/appinventor-sources/tree/fix-sharing-error-method-name) | ![#4204 state](https://img.shields.io/github/issues/detail/state/mit-cml/appinventor-sources/4204?style=flat-square&label=%234204&labelColor=111111) ![fix ready](https://img.shields.io/badge/fix-ready-FFA552?style=flat-square&labelColor=111111) |
-| | [**#4209**](https://github.com/mit-cml/appinventor-sources/issues/4209) — `XMLTextDecode` reported bad XML as JSON error 1105 instead of the never-used XML error 1115, and iOS disagreed between the two decode blocks · [fix for Android + iOS](https://github.com/Tusharcode007/appinventor-sources/tree/fix-web-xml-decode-error-code) | ![#4209 state](https://img.shields.io/github/issues/detail/state/mit-cml/appinventor-sources/4209?style=flat-square&label=%234209&labelColor=111111) ![fix ready](https://img.shields.io/badge/fix-ready-FFA552?style=flat-square&labelColor=111111) |
+| **[MIT App Inventor](https://github.com/mit-cml/appinventor-sources)** | [**#4204**](https://github.com/mit-cml/appinventor-sources/issues/4204) — `ShareFile` and `ShareFileWithMessage` reported each other's name in `Screen.ErrorOccurred`: an inverted condition in `Sharing.java` dating back to 2014 · [fix + Robolectric test](https://github.com/Tusharcode007/appinventor-sources/tree/fix-sharing-error-method-name) on my fork | ![#4204 state](https://img.shields.io/github/issues/detail/state/mit-cml/appinventor-sources/4204?style=flat-square&label=%234204&labelColor=111111) ![fix on fork](https://img.shields.io/badge/fix-on_fork-FFA552?style=flat-square&labelColor=111111) |
+| | [**#4209**](https://github.com/mit-cml/appinventor-sources/issues/4209) — `XMLTextDecode` and `XMLTextDecodeAsDictionary` reported bad XML as JSON error 1105 instead of XML error 1115, which Android never used · [PR #4210](https://github.com/mit-cml/appinventor-sources/pull/4210) switched Android to 1115 with two new `WebTest` cases; the maintainers closed it because it also changed iOS code I couldn't compile, so I cut it down to the [tested Android change](https://github.com/Tusharcode007/appinventor-sources/tree/fix-web-xml-decode-error-code) | ![#4209 state](https://img.shields.io/github/issues/detail/state/mit-cml/appinventor-sources/4209?style=flat-square&label=%234209&labelColor=111111) ![PR #4210 closed](https://img.shields.io/badge/PR_%234210-closed-C3A6FF?style=flat-square&labelColor=111111) |
 | | [**#3876**](https://github.com/mit-cml/appinventor-sources/issues/3876#issuecomment-6502349094) — traced the README's Java 11 vs 17 confusion to the new backend and flagged a leftover `java17` runtime | ![triage](https://img.shields.io/badge/triage-comment-7FB2FF?style=flat-square&labelColor=111111) |
-| **[FindMyGSoC](https://github.com/S3DFX-CYBER/FindMyGSoC)** · GSSoC '26 | [**#511**](https://github.com/S3DFX-CYBER/FindMyGSoC/issues/511) — organization modal: card body didn't open it, backdrop didn't close it, close button scrolled out of view | ![#511 state](https://img.shields.io/github/issues/detail/state/S3DFX-CYBER/FindMyGSoC/511?style=flat-square&label=%23511&labelColor=111111) ![fixed upstream](https://img.shields.io/badge/fixed-upstream-C3A6FF?style=flat-square&labelColor=111111) |
-| **[TeaAndBooks](https://github.com/vie-nyx/TeaAndBooks)** · GSSoC '26 | [**#25**](https://github.com/vie-nyx/TeaAndBooks/issues/25) — Create Group modal: Create button, Enter key and backdrop close all broken | ![#25 state](https://img.shields.io/github/issues/detail/state/vie-nyx/TeaAndBooks/25?style=flat-square&label=%2325&labelColor=111111) ![assigned](https://img.shields.io/badge/assigned-to_me-FFD23F?style=flat-square&labelColor=111111) |
+| **[FindMyGSoC](https://github.com/S3DFX-CYBER/FindMyGSoC)** | [**#511**](https://github.com/S3DFX-CYBER/FindMyGSoC/issues/511) — organization modal: card body didn't open it, backdrop didn't close it, close button scrolled out of view | ![#511 state](https://img.shields.io/github/issues/detail/state/S3DFX-CYBER/FindMyGSoC/511?style=flat-square&label=%23511&labelColor=111111) ![fixed upstream](https://img.shields.io/badge/fixed-upstream-C3A6FF?style=flat-square&labelColor=111111) |
+| **[TeaAndBooks](https://github.com/vie-nyx/TeaAndBooks)** | [**#25**](https://github.com/vie-nyx/TeaAndBooks/issues/25) — Create Group modal: Create button, Enter key and backdrop close all broken | ![#25 state](https://img.shields.io/github/issues/detail/state/vie-nyx/TeaAndBooks/25?style=flat-square&label=%2325&labelColor=111111) ![assigned](https://img.shields.io/badge/assigned-to_me-FFD23F?style=flat-square&labelColor=111111) |
 | | [**#26**](https://github.com/vie-nyx/TeaAndBooks/issues/26) — the same user could review a book multiple times | ![#26 state](https://img.shields.io/github/issues/detail/state/vie-nyx/TeaAndBooks/26?style=flat-square&label=%2326&labelColor=111111) ![assigned](https://img.shields.io/badge/assigned-to_me-FFD23F?style=flat-square&labelColor=111111) |
 | | [**#27**](https://github.com/vie-nyx/TeaAndBooks/issues/27) — no way to delete or edit your own posts in the feed | ![#27 state](https://img.shields.io/github/issues/detail/state/vie-nyx/TeaAndBooks/27?style=flat-square&label=%2327&labelColor=111111) ![assigned](https://img.shields.io/badge/assigned-to_me-FFD23F?style=flat-square&labelColor=111111) |
 
@@ -147,6 +147,6 @@ Also: [**MakeSense AI**](https://github.com/Tusharcode007/makeSENSE) (assistant 
   </picture>
 </p>
 
-<img alt="Open source • MIT App Inventor • GSSoC '26 • React • Node.js • TypeScript • Java • LLM tooling • Full-stack" src="assets/marquee.svg" width="100%">
+<img alt="Open source • MIT App Inventor • React • Node.js • TypeScript • Java • AI products • Full-stack" src="assets/marquee.svg" width="100%">
 
 <p align="center"><sub>Header and banner are hand-made SVGs · the activity calendar and stats regenerate via GitHub Actions</sub></p>

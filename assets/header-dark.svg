@@ -46,11 +46,11 @@
     <text class="sg" x="551.5" y="196" font-size="86" fill="#111111" text-anchor="middle" letter-spacing="-2">R S Tushar</text>
   </g>
 
-  <!-- role pill (cycles through four roles) -->
+  <!-- role pill (cycles through three roles) -->
   <rect x="60" y="250" width="440.0" height="62" rx="10" fill="#F4EFE6"/>
   <text class="sm" x="80" y="294" font-size="25" fill="#0E8A5A">&gt;</text>
   <text class="sm role r0" style="animation-delay:-0s" x="104" y="294" font-size="25" fill="#141414">Full-Stack Developer<tspan class="cur" fill="#D6336C">_</tspan></text>
-  <text class="sm role" style="animation-delay:-6s" x="104" y="294" font-size="25" fill="#141414">Open Source Contributor<tspan class="cur" fill="#D6336C">_</tspan></text><text class="sm role" style="animation-delay:-3s" x="104" y="294" font-size="25" fill="#141414">LLM Tooling Tinkerer<tspan class="cur" fill="#D6336C">_</tspan></text>
+  <text class="sm role" style="animation-delay:-6s" x="104" y="294" font-size="25" fill="#141414">Open Source Contributor<tspan class="cur" fill="#D6336C">_</tspan></text><text class="sm role" style="animation-delay:-3s" x="104" y="294" font-size="25" fill="#141414">AI Application Developer<tspan class="cur" fill="#D6336C">_</tspan></text>
 
   <!-- one-liner -->
   <text class="sm" x="60" y="350" font-size="17" fill="#CFC8BC" letter-spacing="0.5">SECOND-YEAR CS · SCALER SCHOOL OF TECHNOLOGY × BITS PILANI</text>
