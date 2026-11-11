@@ -1,5 +1,4 @@
-# Regenerates the activity calendar, the contribution snake and the stats cards
-# shown in README.md.
+# Regenerates the activity calendar and the stats cards shown in README.md.
 # Everything is published to the `output` branch (force-pushed, no history),
 # so `main` only ever contains hand-written commits.
 
@@ -33,14 +32,6 @@ jobs:
 
       - name: Activity calendar, GitHub + LeetCode (light + dark)
         run: node scripts/activity-heatmap.mjs dist
-
-      - name: Contribution snake (light + dark)
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake-light.svg?color_snake=#111111&color_dots=#EDE4D3,#FFE08A,#FFD23F,#FF8FC3,#D6336C
-            dist/snake-dark.svg?color_snake=#F4EFE6&color_dots=#262626,#6B5414,#C9A227,#FFD23F,#FF8FC3
 
       - name: Stats card (light)
         uses: stats-organization/github-readme-stats-action@v2

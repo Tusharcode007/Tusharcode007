@@ -24,6 +24,17 @@ can act on without asking a single follow-up question.
 - 🌱 Going deeper on TypeScript and system design
 - 💼 Open to internships and collaborations
 
+## 📈 Activity
+
+<a href="https://tusharcode007.github.io/rstushar_portfolio/#activity">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tusharcode007/Tusharcode007/output/activity-dark.svg">
+    <img alt="Calendar heatmap of my GitHub contributions and LeetCode submissions over the last 12 months, with total activity, active days, current streak and longest streak." src="https://raw.githubusercontent.com/Tusharcode007/Tusharcode007/output/activity-light.svg" width="100%">
+  </picture>
+</a>
+
+<p align="center"><sub>GitHub contributions + LeetCode submissions in one calendar · refreshed every 6 hours · <a href="https://tusharcode007.github.io/rstushar_portfolio/#activity">interactive version</a> · <a href="https://leetcode.com/u/Z2N2oTuz4h/">LeetCode profile</a></sub></p>
+
 ## 🐛 Open source
 
 | Project | What I did | Status |
@@ -136,13 +147,6 @@ Also: [**MakeSense AI**](https://github.com/Tusharcode007/makeSENSE) (assistant 
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tusharcode007/Tusharcode007/output/snake-dark.svg">
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Tusharcode007/Tusharcode007/output/snake-light.svg" width="100%">
-  </picture>
-</p>
-
 <img alt="Open source • MIT App Inventor • GSSoC '26 • React • Node.js • TypeScript • Java • LLM tooling • Full-stack" src="assets/marquee.svg" width="100%">
 
-<p align="center"><sub>Header and banner are hand-made SVGs · stats and snake regenerate daily via GitHub Actions</sub></p>
+<p align="center"><sub>Header and banner are hand-made SVGs · the activity calendar and stats regenerate via GitHub Actions</sub></p>
