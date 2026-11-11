@@ -1,4 +1,5 @@
-# Regenerates the contribution snake and the stats cards shown in README.md.
+# Regenerates the activity calendar, the contribution snake and the stats cards
+# shown in README.md.
 # Everything is published to the `output` branch (force-pushed, no history),
 # so `main` only ever contains hand-written commits.
 
@@ -6,11 +7,11 @@ name: Profile assets
 
 on:
   schedule:
-    - cron: "30 0 * * *" # daily, 06:00 IST
+    - cron: "45 */6 * * *" # every 6 hours, after the portfolio's activity data refresh
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/profile-assets.yml"]
+    paths: [".github/workflows/profile-assets.yml", "scripts/**", "assets/fonts/**"]
 
 permissions:
   contents: write
@@ -24,6 +25,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Activity calendar, GitHub + LeetCode (light + dark)
+        run: node scripts/activity-heatmap.mjs dist
+
       - name: Contribution snake (light + dark)
         uses: Platane/snk/svg-only@v3
         with:
