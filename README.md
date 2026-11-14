@@ -33,7 +33,7 @@ to **MIT App Inventor**.
   </picture>
 </a>
 
-<p align="center"><sub>GitHub contributions + LeetCode submissions in one calendar · refreshed every 6 hours · <a href="https://tusharcode007.github.io/rstushar_portfolio/#activity">interactive version</a> · <a href="https://leetcode.com/u/Z2N2oTuz4h/">LeetCode profile</a></sub></p>
+<p align="center"><sub>GitHub contributions + LeetCode submissions in one calendar · refreshed every 6 hours · <a href="https://tusharcode007.github.io/rstushar_portfolio/#activity">interactive version</a></sub></p>
 
 ## 🐛 Open source
 
