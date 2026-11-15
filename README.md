@@ -1,7 +1,7 @@
 <a href="https://tusharcode007.github.io/rstushar_portfolio/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img alt="Hi, I'm R S Tushar — Full-Stack Developer and Open Source Contributor. Second-year CS at Scaler School of Technology × BITS Pilani, Bengaluru." src="assets/header-light.svg" width="100%">
+    <img alt="Hi, I'm R S Tushar — Full-Stack Developer and AI Application Developer. Second-year CS at Scaler School of Technology × BITS Pilani, Bengaluru." src="assets/header-light.svg" width="100%">
   </picture>
 </a>
 
@@ -15,10 +15,10 @@
 ## 👋 About me
 
 I'm a second-year Computer Science student at **Scaler School of Technology** (dual degree with **BITS Pilani**), based in Bengaluru.
-I build full-stack and AI-powered products with TypeScript, React and Node.js, and contribute bug reports and tested fixes
-to **MIT App Inventor**.
+I build full-stack and AI-powered products with TypeScript, React and Node.js. Open-source work so far: bug reports and
+tested fixes for **MIT App Inventor**.
 
-- 🐛 Contributing to **MIT App Inventor**: reproducible bug reports and fixes with unit tests
+- 🐛 Open-source work on **MIT App Inventor**: reproducible bug reports and fixes with unit tests
 - 🧠 Building AI products like **GradeSense**, an LLM-powered exam grader with rubric-level evidence
 - 🤝 Head of Partnerships at **E-Cell, Scaler School of Technology**
 - 🌱 Going deeper on TypeScript and system design
@@ -35,7 +35,7 @@ to **MIT App Inventor**.
 
 <p align="center"><sub>GitHub contributions + LeetCode submissions in one calendar · refreshed every 6 hours · <a href="https://tusharcode007.github.io/rstushar_portfolio/#activity">interactive version</a></sub></p>
 
-## 🐛 Open source
+## 🐛 Open-source work
 
 | Project | What I did | Status |
 | :-- | :-- | :-- |
